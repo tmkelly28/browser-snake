@@ -1,0 +1,48 @@
+#header {
+  color: indianred;
+  display: none;
+}
+
+#bottom-boundary {
+  position: absolute;
+  background-color: black;
+  height: 1px;
+  width: 1000px;
+  margin-top: 735px;
+  
+}
+
+#right-boundary {
+  position: absolute;
+  background-color: black;
+  height: 725px;
+  width: 1px;
+  margin-left: 1010px;
+}
+
+.snake {
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  position: absolute;
+  left: 300px;
+  top: 300px;
+}
+
+.apple {
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  position: absolute;
+}
+
+#score {
+  color: indianred;
+  position: fixed;
+  text-align: right;
+  bottom: 0;
+}
+
+#game-over {
+  display: none;
+}
